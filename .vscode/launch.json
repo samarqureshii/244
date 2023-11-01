@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/samarqureshi/Documents/GitHub/244/khufu",
+      "program": "/Users/samarqureshi/Documents/GitHub/244/khufu/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
