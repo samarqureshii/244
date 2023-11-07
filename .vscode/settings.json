@@ -3,7 +3,8 @@
     "new": "cpp",
     "iostream": "cpp",
     "string": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "istream": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
