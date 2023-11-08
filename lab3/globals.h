@@ -13,7 +13,7 @@
 
 #ifndef globals_h
 #define globals_h
-#include<string>
+#include <string>
 
 // These arrays should make it easier to check that a name is not a reserved word
 // and that an entered shape type is valid
