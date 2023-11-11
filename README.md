@@ -9,6 +9,6 @@
 - To submit: `~ece244i/public/submit 3`
 
 ## Lab 4
-- TO test the program: `~ece244i/public/exercise 4 main`
+- To test the program: `~ece244i/public/exercise 4 main`
 - Reference executable: `~ece244i/public/main-ref`
 - To submit: `~ece244i/public/submit 4`
