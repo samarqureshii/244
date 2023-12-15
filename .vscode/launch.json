@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": true,
       "externalConsole": false,
-      "cwd": "/Users/samarqureshi/Documents/GitHub/244/khufu",
-      "program": "/Users/samarqureshi/Documents/GitHub/244/khufu/build/Debug/outDebug",
+      "cwd": "/Users/samarqureshi/Documents/GitHub/244/final",
+      "program": "/Users/samarqureshi/Documents/GitHub/244/final/build/Debug/outDebug",
       "MIMode": "gdb"
     }
   ]

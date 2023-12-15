@@ -14,29 +14,26 @@ class TreeNode {
 TreeNode* root;
 
 void secondSmallest(TreeNode* myroot, int& c){ //pointer to the root of the tree and integer that can be used to store stuff 
-    c = myroot->key; //start off with c as the parent node key
     //recursive non member function 
     //prints cout to second smallest key value  in a given binary search tree
 
-    //let c be the second smallest 
+    //let c be the element counter
 
     //base case
-    if(left == NULL || right == NULL){
-        cout << c << endl;
+    if(myroot == NULL){
         return;
     }
 
     //general case
+    secondSmallest(myroot->left, c); //look through the left subtree
 
-    //traverse through the left side of the tree, get the smallest value there
-    if(myroot->key < c){
-        //if right is bigger than the left, go right
-        c = myroot->key;
+    c++; //increment the counter 
+    if(c == 2){ //if it is the second element (in-order traversal)
+        cout << myroot->key << endl;
+        return;
     }
 
-    //traverse through both sides of the tree
-    secondSmallest(myroot->left, c);
-    secondSmallest(myroot->right, c);
+    secondSmallest(myroot->right, c); //look through the right subtree 
     
 }
 
