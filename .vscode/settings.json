@@ -4,7 +4,8 @@
     "iostream": "cpp",
     "string": "cpp",
     "iosfwd": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "__hash_table": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
